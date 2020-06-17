@@ -10,8 +10,8 @@ module.exports = env => {
     output: {
         filename: "[name].bundle.js",
         chunkFilename: "[name].bundle.js",
-        path: path.resolve(__dirname, "dist/"),
-        publicPath: "/dist/",
+        path: path.resolve(__dirname, "../../core-ide-a/wasm"),
+        publicPath: "/core-ide-a/wasm/",
     },
 
     // Enable sourcemaps for debugging webpack's output.
